@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN PAGE</title>
+</head>
+<style>
+    /* css  reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url(IMG_4094.jpeg);
+        background-size: 100%;
+    }
+
+
+    .left {
+        position: absolute;
+        left: 34px;
+        top: 18px;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 18px auto;
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 30px;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font size: 50px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a :active {
+        text-decoration: underline;
+        color: grey;
+    }
+
+    .left div {
+        text-align: center;
+        color: white;
+    }
+
+    .btn {
+        margin: 0px 9px;
+        padding: 3px 4px;
+        border: none;
+        background-color: transparent;
+
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .btn1 {
+        margin: 0px 9px;
+        padding: 3px 4px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .btn1 a {
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+
+    .container {
+
+        border-color: 4px solid black;
+        margin: 2px 2px;
+        padding: 2px 2px;
+        width: 105%;
+        border-radius: 10px;
+
+    }
+
+    .form-grp input {
+        text-align: center;
+        display: block;
+        margin: 3px auto;
+        padding: 6px;
+        width: 300px;
+        border-radius: 5px;
+    }
+
+    .btn2 {
+        display: block;
+        width: 23%;
+        margin: auto;
+        border-radius: 5px;
+        background-color: rgb(14, 13, 13);
+        text-decoration: none;
+
+    }
+
+    .btn2 a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .container {
+        position: fixed;
+        top: 150px;
+        mid: 300px;
+        left: 2px;
+        border-color: 4px solid black;
+    }
+
+    .container h2 {
+        text-align: center;
+    }
+
+    .container2 {
+        text-align: center;
+        color: #7777c7;
+
+        padding: 29px;
+
+        margin: 178px 2px;
+        display: inline-block;
+        position: absolute;
+        left: 400px;
+        bottom: 200px;
+        font-size: 20px;
+    }
+
+    .container3 {
+        text-align: center;
+        color: #7777c7;
+
+        padding: 29px;
+        margin: 178px 2px;
+        display: inline-block;
+        position: absolute;
+        left: 500px;
+        width: 30%;
+        top: 100px;
+        font-size: 20px;
+    }
+
+    .left img {
+        width: 75px;
+        filter: invert(100%);
+        background-image: none;
+    }
+
+    .container5 img {
+        background-size: 30%;
+        width: 500%;
+        display: inline-block;
+        position: absolute;
+
+
+
+    }
+
+    .container5 {
+        padding: 29px;
+        margin: 178px 2px;
+        display: inline-block;
+        position: absolute;
+        right: 250px;
+        bottom: 300px;
+
+    }
+</style>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="logo.png" alt="how are you">
+        </div>
+        <!-- left box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="homepage.html" class="active">HOME</a></li>
+                <li><a href="#" class="active">ABOUT</a></li>
+                <li><a href="#" class="active">ADVICE</a></li>
+                <li><a href="submitpage.html" class="active">PLAN OF ACTION</a></li>
+                <li><a href="#" class="active">CONTACT</a></li>
+
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn" class="active"><a href="login.html">LOGIN</a></button>
+            <button class="btn1" class="active"><a href="started page.html">GET STARTED</a></button>
+        </div>
+    </header>
+    <div class="container">
+        <h2>LOGIN</h2>
+        <form action="#">
+
+            <div class="form-grp"> <input type="text" name="" placeholder="NAME"></div>
+            <div class="form-grp"> <input type="email" name="" placeholder="EMAIL ADDRESS"></div>
+            <div class="form-grp"><input type="password" name="" placeholder="PASSWORD"></div>
+            <button class="btn2"><a href="#">SUBMIT</a></button>
+        </form>
+    </div>
+
+    </div>
+
+</body>
+
+</html>
